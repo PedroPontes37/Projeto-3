@@ -1,0 +1,368 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: brown;
+}
+
+.marginlateral {
+  margin: 3%;
+  font-size: 16px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+.marginlateral:hover {
+  font-size: 18px;
+}
+#carrinho_icon {
+  height: 40px;
+  width: 40px;
+  filter: invert();
+}
+#carrinho_icon:hover {
+  height: 50px;
+  width: 50px;
+}
+
+.imagem1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 3%;
+}
+#imagenspg1 {
+  width: 800px;
+  height: 500px;
+}
+.texto {
+  display: flex;
+  justify-content: center;
+  padding: 3%;
+}
+.texto_sobre_nos {
+  width: 25%;
+  font-size: 18px;
+}
+.sobre_nos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  /* border: solid; */
+  background-color: white;
+  width: 800px;
+}
+.texto_em_colunas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.fimpg1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgb(36, 35, 35);
+}
+
+.pagina2 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  height: 100vh;
+}
+.menustitulo,
+.titulo_acompanhamentos {
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  text-decoration: underline;
+}
+
+.menus {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 3%;
+}
+.menu_carnes,
+.menu_peixes {
+  width: 450px;
+  height: 480px;
+  border-radius: 5%;
+  background-color: rgb(231 223 223 / 21%);
+  border: dashed;
+}
+.menus_conteudos {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+.menus_conteudos:hover {
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+.titulo_carnes,
+.titulo_peixes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  font-size: 22px;
+}
+
+.composicao_menus {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  font-size: 20px;
+  justify-content: space-around;
+}
+
+.menu_imagem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  padding: 3%;
+  justify-content: space-evenly;
+}
+.menu_imagem2 {
+  padding: 3%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.imagens_menus {
+  width: 150px;
+  height: 150px;
+  border-radius: 10%;
+}
+
+.fig_menus {
+  width: 150px;
+  height: 150px;
+  border-radius: 10%;
+  border: solid;
+}
+
+.acompanhamentos {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.todos_acompanhamentos {
+  width: 500px;
+  height: 500px;
+  border-radius: 5%;
+  background-color: rgb(194, 194, 194);
+}
+.imagens_acompanhamentos {
+  width: 150px;
+  height: 150px;
+  border-radius: 10%;
+}
+
+.titulo_imagem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  font-size: 20px;
+}
+.fila1,
+.fila2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 5%;
+}
+
+.botao_continuar {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  padding: 3%;
+  margin-bottom: 3%;
+}
+
+#adicionar_carrinho {
+  display: inline-block;
+  padding: 15px 32px;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: brown;
+  color: white;
+}
+
+#adicionar_carrinho:hover {
+  font-size: 18px;
+}
+
+.animaçoes_imagens_menu {
+  border-radius: 10%;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  border: none;
+  border-style: none;
+  background-color: rgb(194, 194, 194);
+}
+.animaçoes_imagens_menu:hover {
+  -webkit-box-shadow: 0px 0px 10px 2px rgba(1, 130, 21, 0.99);
+  box-shadow: 0px 0px 10px 2px rgba(1, 130, 21, 0.99);
+}
+
+.Feedback {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-image: url("restaurante_2.jpg");
+  height: 100vh;
+  align-items: center;
+}
+
+.escreva_comentarios {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 500px;
+  width: 29%;
+  border-style: solid;
+  border-color: #00000096;
+  background-color: #b9b9b9c7;
+  color: #040404;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.reviews {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-width: 0 0 1px;
+  border-style: solid;
+  border-color: #00000096;
+  width: 85%;
+}
+
+#total {
+  padding-left: 3%;
+  color: #1a1a1a8f;
+}
+.comentario {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+#caixacomentario {
+  padding: 3px;
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+  height: 100%;
+  width: 65%;
+}
+
+.comentarios_clientes {
+  display: flex;
+  flex-direction: row;
+  font-size: 15px;
+  width: 85%;
+  align-items: center;
+  border-width: 0 0 1px;
+  border-style: solid;
+  border-color: #00000096;
+}
+.comentarioss {
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  text-align: center;
+  width: 85%;
+  height: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.pessoas_comentarios {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+
+.texto_clientes {
+  padding: 5%;
+}
+
+.menucarrinho {
+  display: flex;
+  justify-content: center;
+  padding: 3%;
+}
+
+.carrinho {
+  width: 450px;
+  height: 480px;
+  border-radius: 5%;
+  background-color: rgb(231 223 223 / 21%);
+  border: dashed;
+}
+.titulocarrinho {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.imagenscarrinho {
+  width: 150px;
+  height: 150px;
+  border-radius: 10%;
+}
+
+.conteudocarrinho {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.Preço {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  padding: 3%;
+}
+.continuar {
+  display: flex;
+  justify-content: center;
+}
+
+.botaocontinuarcarrinho {
+  display: inline-block;
+  padding: 15px 32px;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: brown;
+  color: white;
+}
+
+.botaocontinuarcarrinho:hover {
+  font-size: 18px;
+}
